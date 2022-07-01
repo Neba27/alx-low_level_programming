@@ -1,49 +1,68 @@
 #include <stdio.h>
 
+#include <stdlib.h>
+
 /**
  *
- *  * main - entry block
+ *  * main - main block
  *
- *   *
- *
- *    * Return: 0
- *
+ *   * Return: 0
  **/
 
 int main(void)
 
 {
 
-		int i, j;
+		int c;
+
+			int d = 0;
 
 
 
-			for (i = '0'; i <= '9'; i++)
+				while (d < 10)
 
-					{
+						{
 
-								for (j = i + 1; j <= '9'; j++)
+									c = 0;
 
-											{
+											while (c < 10)
 
-															putchar(i);
+														{
 
-																		putchar(j);
+																		if (d != c && d < c)
 
-																					if (i != '8' || j != '9')
+																						{
 
-																									{
+																											putchar('0' + d);
 
-																														putchar(',');
+																															putchar('0' + c);
 
-																																		putchar(' ');
 
-																																					}
+
+																																			if (c + d != 17)
+
+																																								{
+
+																																														putchar(',');
+
+																																																			putchar(' ');
+
+																																																							}
+
+																																						}
+
+
+
+																					c++;
 
 																							}
 
-									}
+													d++;
 
-				putchar('\n');
+														}
 
-					return (0);
+					putchar('\n');
+
+						return (0);
+
+}
