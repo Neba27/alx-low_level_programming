@@ -13,11 +13,11 @@ int main(void)
 
 	int number_right;
 
-	for (number_left = 01; number_right <= 10; number_left++)
+	for (number_left = 1; number_right <= 89; number_left++)
 
 	{
 
-		for (number_right = number_left + 1 ; number_right <= 10; number_right++)
+		for (number_right = number_left + 1 ; number_right <= 89; number_right++)
 
 		{
 
