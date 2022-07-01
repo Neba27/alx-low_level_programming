@@ -25,7 +25,7 @@ int main(void)
 
 			putchar (number_right);
 
-			if ((number_left == 56) && (number_right == 78))
+			if ((number_left == 1) && (number_right == 89))
 
 			{
 
