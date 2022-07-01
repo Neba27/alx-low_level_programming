@@ -1,48 +1,46 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Return: Always 0 (Success/completed)
+ * main - print double digit combos
+ * Description: print double digit combos
+ * Return: Always 0 (Success)
  **/
 
 int main(void)
 
 {
 
-	int number_left;
+		int i, j;
 
-	int number_right;
+			i = 48;
 
-	for (number_left = 1; number_right <= 89; number_left++)
+				j = 48;
 
-	{
+					while (i < 58)
 
-		for (number_right = number_left + 1 ; number_right <= 89; number_right++)
+							{
 
-		{
+										j = i + 1;
 
-			putchar(number_left);
+												while (j < 58)
 
-			putchar (number_right);
+															{
 
-			if ((number_left == 1) && (number_right == 89))
+																			putchar(i);
 
-			{
+																						putchar(j);
 
-				break;
+																									if (i < 56 || j < 57)
 
-			}
+																													{
 
-			putchar(',');
+																																		putchar(44);
 
-			putchar (' ');
-
-		}
-
-	}
-
-	putchar('\n');
-
-	return (0);
-
-}
+																																						putchar(32);
+																																									}
+																												j++;
+																														}
+														i++;
+															}
+						putchar(10);
+							return (0);
