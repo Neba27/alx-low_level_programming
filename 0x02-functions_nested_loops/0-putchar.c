@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * Write a program that prints _putchar, followed by a new line. 
+ * Write a program that prints _putchar, followed by a new line.
+ * main(void)
  * The program should return 0
  **/
 
