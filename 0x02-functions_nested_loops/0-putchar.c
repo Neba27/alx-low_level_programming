@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * Write a program that prints _putchar, followed by a new line.
- * main(void)
- * The program should return 0
+ * main - Entry point
+ * Return: nothing, return void
  **/
 
 int main(void)
