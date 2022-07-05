@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - check the code.
+ * print_sign: - check the code.
  * @n: - value to be checked
  * return: 1 if +ve value
  */
