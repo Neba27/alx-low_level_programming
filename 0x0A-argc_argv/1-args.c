@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 
 /**
  * main - the main function
@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	argc--;
-	puts(argv[0]);
+	if (argv != NULL)
+		printf("%d\n", argc - 1);
 	return (0);
 }
